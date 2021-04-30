@@ -1,11 +1,10 @@
 h1, .greeting, .container, .task {
     text-align: center;
 }
-.taskContainer {
-    display: flex;
-    justify-content: center;
 
-}
 .taskContainer p{
     display: inline-flex;
+}
+.taskContainer li{
+    list-style: none;
 }
