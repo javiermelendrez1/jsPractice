@@ -1,0 +1,13 @@
+different UI pseudo-classes available
+
+:hover
+:focus
+:active 
+
+the most useful are 
+:required :optional :valid :invalid :in-range :out-of-range
+:enabled :disabled :read-only :read-write 
+:checked :default :indeterminate 
+
+The idea is that we can use the ::before and ::after 
+pseudo-elements along with the content property to make a chunk of content appear before or after the affected element. 
