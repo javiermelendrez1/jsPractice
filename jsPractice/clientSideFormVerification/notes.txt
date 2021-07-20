@@ -1,0 +1,30 @@
+Client-side validation is an initial check and an important feature of good user experience;
+ by catching invalid data on the client-side, the user can fix it straight away.
+  If it gets to the server and is then rejected, 
+  a noticeable delay is caused by a round trip to the server and then back to the client-side to tell the user to fix their data.
+
+  Validation done in the browser is called client-side validation, while validation done on the server is called server-side validation
+
+  We want to get the right data, in the right format. 
+
+  We want to protect our users' data.
+
+  We want to protect ourselves.
+
+  One of the most significant features of HTML5 form controls is the ability to validate most user data without relying on JavaScript.
+
+  For good user experience, indicate to the user when form fields are required.
+
+  You can constrain the character length of all text fields created by <input> or <textarea> by using the minlength and maxlength attributes.
+
+  For number fields (i.e. <input type="number">), the min and max attributes can be used to provide a range of valid values.
+
+  You must use JavaScript if you want to take control over the look and feel of native error messages or to deal with legacy
+   browsers that do not support HTML's built-in form validation.
+
+   if you want your script to take over the validation you have to use novalidate on the form attributes
+
+   in some  cases you can't use the api that make validating with javascript easier
+   so you have to code your own api
+
+   
